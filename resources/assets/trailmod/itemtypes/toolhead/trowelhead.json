@@ -1,0 +1,42 @@
+{
+	code: "trowelhead",
+	variantgroups: [
+		{ code: "material", states: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "gold", "silver", "iron", "meteoriciron", "steel" ] },
+	],
+	heldTpUseAnimation: "interactstatic", maxstacksize: 4,
+	shapeByType: {
+		"*": { "base": "trailmod:item/tool/trowelhead" },
+	},
+	texturesByType: {
+		"*": {
+			"material": { base: "game:block/metal/ingot/{material}" },
+			"string": { base: "game:block/transparent" },
+			"handle": { base: "game:block/transparent" }
+		}
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"] },
+	fpHandTransformByType: {
+		"*": {
+			translation: { x: -0.04, y: -0.9, z: 0 },
+			rotation: { x: 3, y: 15, z: 90 },
+			scale: 2.5
+		}
+	},
+	guiTransform: {
+		translation: { x: 6, y: 1, z: 120 },
+		rotation: { x: -29, y: -34, z: -145 },
+		origin: { x: 0.5, y: 0.35, z: 0.8 },
+		scale: 2.67
+	},
+	groundTransform: {
+		translation: { x: 0, y: 0.33, z: 0 },
+		rotation: { x: 0, y: 0, z: 0 },
+		origin: { x: 0.8, y: 0.47, z: 0.5 },
+		scale: 3.6
+	},
+	tpHandTransform: {
+		translation: { x: -0.7, y: -0.6, z: -0.1 },
+		rotation: { x: 90, y: 20, z: 0 },
+		scale: 0.85
+	}
+}

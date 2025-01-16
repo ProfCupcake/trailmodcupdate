@@ -1,0 +1,82 @@
+{
+	code: "trail",
+	class: "BlockTrail",
+	variantgroups: [
+		{ loadFromProperties: "abstract/fertility" },
+		{ code: "trailwear", states: ["new", "established", "veryestablished", "old"] }
+	],
+	behaviors: [],
+	creativeinventory: { "general": ["*"], "flora": ["*"], "terrain": ["*"] },
+	shape: { base: "game:block/basic/cube" },
+	drawtypeByType: {
+		"*-none": "Cube",
+		"*": "TopSoil",
+	},
+	renderpassByType: {
+		"*-none": "Opaque",
+		"*": "TopSoil",
+	},
+	blockmaterial: "Soil",
+	textures: {
+		all: { base:"game:block/soil/fert{fertility}" },
+		snowed: {base: "block/trail/snow/normal"},
+		specialSecondTexture: {base: "block/trail/trailwear/wear{trailwear}"}
+	},
+	attributes: {
+		mapColorCode: "land",
+		ignoreTintInventory: true,
+	},
+	texturesInventory: {
+		down: {base: "game:block/soil/fert{fertility}"},
+		horizontals: {
+			base: "game:block/soil/fert{fertility}",
+			overlays: ["block/trail/trailwear/inventory/side_{trailwear}"]
+		},
+		up: {
+			base: "game:block/soil/fert{fertility}",
+			overlays: ["block/trail/trailwear/inventory/top_{trailwear}"]
+		}
+	},
+	walkspeedmultiplierByType:{
+		"*-new" : 1.1,
+		"*-established" : 1.15,
+		"*-veryestablished" : 1.20,
+		"*-old": 1.25	
+	},
+	snowCoverage: true,
+	frostableByType: {
+		"*-pretrail": false,
+		"*": true,
+	},
+	replaceable: 400,
+	fertility: 100,
+	resistance: 1.5,
+	soundsByType: 
+	{
+		"*-pretrail":
+		{
+			place: "game:block/dirt",
+			break: "game:block/dirt",
+			hit: "game:block/dirt",
+			walk: "game:walk/grass"
+		},
+		"*":
+		{
+			place: "game:block/dirt",
+			break: "game:block/dirt",
+			hit: "game:block/dirt",
+			walk: "game:walk/gravel"
+		}
+	},
+	drops: [ {
+		type: "block",
+		code: "game:soil-{fertility}-none",
+		quantity: { avg: 1, var: 0 }
+	} ],
+	heldTpIdleAnimation: "holdbothhandslarge", heldRightReadyAnimation: "heldblockready", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1.23, y: -0.91, z: -0.8 },
+		rotation: { x: -2, y: 25, z: -78 },
+		scale: 0.4
+	}
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": { "name": "UnstableFalling", properties: { fallSound: "game:effect/rockslide", fallSideways: true, dustIntensity : 0.25 } },
+    "file": "blocktypes/trail.json",
+    "condition": { "when": "blockGravity", "isValue": "sandgravelsoil" },
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/allowUnstablePlacement",
+    "value": true,
+    "file": "blocktypes/trail.json",
+    "condition": { "when": "blockGravity", "isValue": "sandgravelsoil" },
+    "side": "Server"
+  },
+
+  {
+    "op": "add",
+    "path": "/behaviors/-",
+    "value": { "name": "UnstableFalling", properties: { fallSound: "game:effect/rockslide", fallSideways: true, dustIntensity : 0.25 } },
+    "file": "blocktypes/soil-pretrail.json",
+    "condition": { "when": "blockGravity", "isValue": "sandgravelsoil" },
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/allowUnstablePlacement",
+    "value": true,
+    "file": "blocktypes/soil-pretrail.json",
+    "condition": { "when": "blockGravity", "isValue": "sandgravelsoil" },
+    "side": "Server"
+  }
+]

@@ -1,0 +1,60 @@
+{	
+	//BLOCKS
+	"block-soil-verylow-pretrail": "Suelo estéril (Pisoteado)",
+	"block-trail-verylow-new": "Sendero salvaje (Suelo estéril)",
+	"block-trail-verylow-established": "Sendero establecido (Suelo estéril)",
+	"block-trail-verylow-veryestablished": "Camino de tierra (Suelo estéril)",
+	"block-trail-verylow-old": "Carretera (Suelo estéril)",
+	
+	"block-soil-low-pretrail": "Suelo de baja fertilidad (Pisoteado)",
+	"block-trail-low-new": "Sendero salvaje (Suelo de baja fertilidad)",
+	"block-trail-low-established": "Sendero establecido (Suelo de baja fertilidad)",
+	"block-trail-low-veryestablished": "Camino de tierra (Suelo de baja fertilidad)",
+	"block-trail-low-old": "Carretera (Suelo de baja fertilidad)",
+
+	"block-soil-medium-pretrail": "Suelo de fertilidad media (Pisoteado)",
+	"block-trail-medium-new": "Sendero salvaje (Suelo de fertilidad media)",
+	"block-trail-medium-established": "Sendero establecido (Suelo de fertilidad media)",
+	"block-trail-medium-veryestablished": "Camino de tierra (Suelo de fertilidad media)",
+	"block-trail-medium-old": "Carretera (Suelo de fertilidad media)",
+
+	"block-soil-compost-pretrail": "Suelo de alta fertilidad (Pisoteado)",
+	"block-trail-compost-new": "Sendero salvaje (Suelo de alta fertilidad)",
+	"block-trail-compost-established": "Sendero establecido (Suelo de alta fertilidad)",
+	"block-trail-compost-veryestablished": "Camino de tierra (Suelo de alta fertilidad)",
+	"block-trail-compost-old": "Carretera (Suelo de alta fertilidad)",
+
+	"block-soil-high-pretrail": "Terra preta (Pisoteado)",
+	"block-trail-high-new": "Sendero salvaje (Terra preta)",
+	"block-trail-high-established": "Sendero establecido (Terra preta)",
+	"block-trail-high-veryestablished": "Camino de tierra (Terra preta)",
+	"block-trail-high-old": "Carretera (Terra preta)",
+	
+	"block-cairn-andesite-*": "Montón de andesita",
+	"block-cairn-chalk-*": "Montón de tiza",
+	"block-cairn-chert-*": "Montón de sílex",
+	"block-cairn-conglomerate-*": "Montón de conglomerado",
+	"block-cairn-limestone-*": "Montón de piedra caliza",
+	"block-cairn-claystone-*": "Montón de arcillolita",
+	"block-cairn-granite-*": "Montón de granito",
+	"block-cairn-sandstone-*": "Montón de arenisca",
+	"block-cairn-shale-*": "Montón de pizarra",
+	"block-cairn-basalt-*": "Montón de basalto",
+	"block-cairn-peridotite-*": "Montón de peridotita",
+	"block-cairn-phyllite-*": "Montón de filita",
+	"block-cairn-slate-*": "Montón de pizarra",
+	"block-cairn-bauxite-*": "Montón de bauxita",
+	"block-cairn-kimberlite-*": "Montón de kimberlita",
+	"block-cairn-suevite-*": "Montón de suevita",
+	"block-cairn-whitemarble-*": "Montón de mármol blanco",
+	"block-cairn-redmarble-*": "Montón de mármol rojo",
+	"block-cairn-greenmarble-*": "Montón de mármol verde",
+	"block-cairn-obsidian-*": "Montón de obsidiana",
+	"block-cairn-scoria-*": "Montón de escoria",
+	"block-cairn-tuff-*": "Montón de toba",
+	"block-cairn-halite-*": "Montón de halita",
+	
+	//HANDBOOK
+	"gamemechanicinfo-trails-title": "Mecánica de juego: Senderos y caminos naturales",
+	"gamemechanicinfo-trails-text": "<strong>Visión general</strong><br>Los senderos son creados naturalmente por las personas y los animales que se mueven a través del entorno. Estas rutas orgánicas alteran el paisaje, cortando senderos, caminos y carreteras a través de una naturaleza salvaje una vez prístina. Cuanto más tráfico experimente una ruta, más rápido y estable se volverá el sendero."
+}

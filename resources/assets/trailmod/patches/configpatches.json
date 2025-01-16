@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/textures",
+    "value": {
+      "all": { "base":"game:block/soil/fert{fertility}" },
+      "snowed": {"base": "block/trail/snow/normal"},
+      "specialSecondTexture": {"base": "block/trail/trailwear/wear{trailwear}_dirtonly"}
+    },
+    "file": "blocktypes/trail.json",
+    "condition": { "when": "dirtRoadsOnly", "isValue": "true" },
+    "side": "Server"
+  }
+]

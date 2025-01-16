@@ -1,0 +1,117 @@
+{
+	"editor": {
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+	},
+	"elements": [
+		{
+			"name": "origin",
+			"from": [ 8.0, 0.0, 8.0 ],
+			"to": [ 8.0, 0.0, 8.0 ],
+			"rotationOrigin": [ 8.0, 0.0, 8.0 ],
+			"faces": {
+			},
+			"children": [
+				{
+					"name": "rock 1",
+					"from": [ -4.5, 0.0, -3.5 ],
+					"to": [ 3.5, 5.0, 5.5 ],
+					"rotationOrigin": [ -1.0, 0.0, 0.0 ],
+					"rotationY": 45.0,
+					"faces": {
+						"north": { "texture": "#rock", "uv": [ 0.0, 8.0, 8.0, 13.0 ] },
+						"east": { "texture": "#rock", "uv": [ 7.0, 7.0, 16.0, 12.0 ] },
+						"south": { "texture": "#rock", "uv": [ 2.0, 6.5, 10.0, 11.5 ] },
+						"west": { "texture": "#rock", "uv": [ 6.0, 1.0, 15.0, 6.0 ] },
+						"up": { "texture": "#rock", "uv": [ 5.5, 0.5, 13.5, 9.5 ] },
+						"down": { "texture": "#rock", "uv": [ 7.0, 2.0, 15.0, 11.0 ] }
+					},
+					"children": [
+						{
+							"name": "rock 2",
+							"from": [ 3.7678, 9.5, 1.6464 ],
+							"to": [ 6.7678, 12.5, 4.6464 ],
+							"rotationOrigin": [ 5.2678, 10.0, 3.1464 ],
+							"rotationY": -45.0,
+							"faces": {
+								"north": { "texture": "#rock", "uv": [ 1.0, 8.5, 4.0, 11.5 ] },
+								"east": { "texture": "#rock", "uv": [ 7.0, 1.0, 10.0, 4.0 ] },
+								"south": { "texture": "#rock", "uv": [ 12.0, 13.0, 15.0, 16.0 ] },
+								"west": { "texture": "#rock", "uv": [ 5.5, 1.0, 8.5, 4.0 ] },
+								"up": { "texture": "#rock", "uv": [ 5.0, 3.5, 8.0, 6.5 ] },
+								"down": { "texture": "#rock", "uv": [ 9.0, 0.5, 12.0, 3.5 ] }
+							}
+						},
+						{
+							"name": "rock 4",
+							"from": [ 3.2678, 5.0, 1.0607 ],
+							"to": [ 8.2678, 8.0, 7.0607 ],
+							"rotationOrigin": [ 5.2678, 5.0, 4.5607 ],
+							"rotationX": -180.0,
+							"rotationY": -22.5,
+							"rotationZ": -180.0,
+							"faces": {
+								"north": { "texture": "#rock", "uv": [ 10.0, 5.5, 15.0, 8.5 ] },
+								"east": { "texture": "#rock", "uv": [ 6.0, 4.0, 12.0, 7.0 ] },
+								"south": { "texture": "#rock", "uv": [ 9.5, 7.0, 14.5, 10.0 ] },
+								"west": { "texture": "#rock", "uv": [ 7.0, 7.5, 13.0, 10.5 ] },
+								"up": { "texture": "#rock", "uv": [ 6.5, 9.5, 11.5, 15.5 ] },
+								"down": { "texture": "#rock", "uv": [ 3.0, 8.0, 8.0, 14.0 ] }
+							}
+						},
+						{
+							"name": "rock 6",
+							"from": [ 2.7071, 14.5, 2.5 ],
+							"to": [ 5.7071, 16.0, 4.5 ],
+							"rotationOrigin": [ 4.2071, 15.0, 3.5 ],
+							"rotationY": -22.5,
+							"faces": {
+								"north": { "texture": "#rock", "uv": [ 8.5, 6.5, 11.5, 8.0 ] },
+								"east": { "texture": "#rock", "uv": [ 5.5, 8.0, 7.5, 9.5 ] },
+								"south": { "texture": "#rock", "uv": [ 1.5, 7.0, 4.5, 8.5 ] },
+								"west": { "texture": "#rock", "uv": [ 9.0, 0.5, 11.0, 2.0 ] },
+								"up": { "texture": "#rock", "uv": [ 12.5, 8.0, 15.5, 10.0 ] },
+								"down": { "texture": "#rock", "uv": [ 3.0, 7.0, 6.0, 9.0 ] }
+							}
+						},
+						{
+							"name": "rock 8",
+							"from": [ 3.0614, 12.5, 1.6452 ],
+							"to": [ 6.0614, 14.5, 4.6452 ],
+							"rotationOrigin": [ 4.5607, 13.0, 3.1464 ],
+							"rotationY": -89.98,
+							"faces": {
+								"north": { "texture": "#rock", "uv": [ 11.5, 5.5, 14.5, 7.5 ] },
+								"east": { "texture": "#rock", "uv": [ 9.5, 12.0, 12.5, 14.0 ] },
+								"south": { "texture": "#rock", "uv": [ 6.0, 11.0, 9.0, 13.0 ] },
+								"west": { "texture": "#rock", "uv": [ 4.5, 4.0, 7.5, 6.0 ] },
+								"up": { "texture": "#rock", "uv": [ 12.0, 8.0, 15.0, 11.0 ] },
+								"down": { "texture": "#rock", "uv": [ 6.0, 8.5, 9.0, 11.5 ] }
+							}
+						},
+						{
+							"name": "rock 7",
+							"from": [ 2.7071, 8.0, 1.0858 ],
+							"to": [ 6.7071, 9.5, 5.0858 ],
+							"rotationOrigin": [ 4.2071, 8.0, 2.0858 ],
+							"rotationY": -22.5,
+							"faces": {
+								"north": { "texture": "#rock", "uv": [ 8.5, 6.5, 12.5, 8.0 ] },
+								"east": { "texture": "#rock", "uv": [ 5.5, 8.0, 9.5, 9.5 ] },
+								"south": { "texture": "#rock", "uv": [ 1.5, 7.0, 5.5, 8.5 ] },
+								"west": { "texture": "#rock", "uv": [ 9.0, 0.5, 13.0, 2.0 ] },
+								"up": { "texture": "#rock", "uv": [ 8.0, 10.0, 12.0, 14.0 ] },
+								"down": { "texture": "#rock", "uv": [ 3.0, 7.0, 7.0, 11.0 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]}

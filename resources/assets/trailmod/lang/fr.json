@@ -1,0 +1,61 @@
+{   
+    //BLOCKS
+    "block-soil-verylow-pretrail": "Terre épuisée (piétinée)",
+    "block-trail-verylow-new": "Sentier sauvage (Terre épuisée)",
+    "block-trail-verylow-established": "Sentier établi (Terre épuisée)",
+    "block-trail-verylow-veryestablished": "Chemin de terre (Terre épuisée)",
+    "block-trail-verylow-old": "Route (Terre épuisée)",
+    
+    "block-soil-low-pretrail": "Terre faiblement fertile (piétinée)",
+    "block-trail-low-new": "Sentier sauvage (Terre faiblement fertile)",
+    "block-trail-low-established": "Sentier établi (Terre faiblement fertile)",
+    "block-trail-low-veryestablished": "Chemin de terre (Terre faiblement fertile)",
+    "block-trail-low-old": "Route (Terre faiblement fertile)",
+ 
+    "block-soil-medium-pretrail": "Terre moyennement fertile (piétinée)",
+    "block-trail-medium-new": "Sentier sauvage (Terre moyennement fertile)",
+    "block-trail-medium-established": "Sentier établi (Terre moyennement fertile)",
+    "block-trail-medium-veryestablished": "Chemin de terre (Terre moyennement fertile)",
+    "block-trail-medium-old": "Route (Terre moyennement fertile)",
+ 
+    "block-soil-compost-pretrail": "Terre hautement fertile (piétinée)",
+    "block-trail-compost-new": "Sentier sauvage (Terre hautement fertile)",
+    "block-trail-compost-established": "Sentier établi (Terre hautement fertile)",
+    "block-trail-compost-veryestablished": "Chemin de terre (Terre hautement fertile)",
+    "block-trail-compost-old": "Route (Terre hautement fertile)",
+ 
+    "block-soil-high-pretrail": "Terra preta (piétinée)",
+    "block-trail-high-new": "Sentier sauvage (terra preta)",
+    "block-trail-high-established": "Sentier établi (terra preta)",
+    "block-trail-high-veryestablished": "Chemin de terre (terra preta)",
+    "block-trail-high-old": "Route (terra preta)",
+   
+    "block-cairn-andesite-*": "Cairn en andésite",
+    "block-cairn-chalk-*": "Cairn en craie",
+    "block-cairn-chert-*": "Cairn en chaille",
+    "block-cairn-conglomerate-*": "Cairn en conglomérat",
+    "block-cairn-limestone-*": "Cairn en calcaire",
+    "block-cairn-claystone-*": "Cairn en argilite",
+    "block-cairn-granite-*": "Cairn en granite",
+    "block-cairn-sandstone-*": "Cairn en grès",
+    "block-cairn-shale-*": "Cairn en schiste",
+    "block-cairn-basalt-*": "Cairn en basalte",
+    "block-cairn-peridotite-*": "Cairn en péridotite",
+    "block-cairn-phyllite-*": "Cairn en phyllite",
+    "block-cairn-slate-*": "Cairn en ardoise",
+    "block-cairn-bauxite-*": "Cairn en bauxite",
+    "block-cairn-kimberlite-*": "Cairn en kimberlie",
+    "block-cairn-suevite-*": "Cairn en suévite",
+    "block-cairn-whitemarble-*": "Cairn en marbre blanc",
+    "block-cairn-redmarble-*": "Cairn en marbre rose",
+    "block-cairn-greenmarble-*": "Cairn en marbre vert",
+    "block-cairn-obsidian-*": "Cairn en obsidienne",
+    "block-cairn-scoria-*": "Cairn en scories",
+    "block-cairn-tuff-*": "Cairn en tuff",
+    "block-cairn-halite-*": "Cairn en halite",
+ 
+    //HANDBOOK
+    "gamemechanicinfo-trails-title": "Mécanique du jeu : sentiers et routes naturels" ,
+    "gamemechanicinfo-trails-text": "<strong>Aperçu</strong><br>Les sentiers sont créés naturellement par les personnes et les animaux qui se déplacent dans l'environnement. Ces itinéraires organiques modifient le paysage, coupant des sentiers, des chemins et des routes à travers une nature sauvage autrefois vierge. Plus un itinéraire est fréquenté, plus le sentier deviendra rapide et établi."
+ 
+}

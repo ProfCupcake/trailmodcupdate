@@ -1,0 +1,72 @@
+{
+	code: "cairn",
+	class: "BlockLooseRock",
+	attributes: {
+		handbook: {
+			groupBy: ["cairn-*"]
+		}
+	},
+	behaviors: [{name: "UnstableFalling"}],
+	variantgroups: [
+		{ code: "rock", loadFromProperties: "block/rockwithdeposit" },
+		{ code: "cover", states: ["free", "water", "ice", "snow"] }
+	],
+	replaceable: 500,
+	creativeinventory: { "general": ["*-free"] },
+	shapeByType: {
+		"*-snow": {
+			base: "block/stone/cairn/{cover}*",
+			alternates: [
+				{ rotateY: 90 },
+				{ rotateY: 180 },
+				{ rotateY: 270 }
+			]
+		},
+		"*": {
+			base: "block/stone/cairn/free*",
+			alternates: [
+				{ rotateY: 90 },
+				{ rotateY: 180 },
+				{ rotateY: 270 }
+			]
+		}
+	},
+	resistance: 0.15,
+	textures: {
+		rock: {base: "game:block/stone/rock/{rock}1" },
+		snowcover: { base: "game:block/liquid/snow/normal1" }
+	},
+	drawtypeByType: {
+		"*-free": "JSON",
+		"*-snow": "JSONAndSnowLayer",
+	},
+	drops: [
+		{
+			type: "item", 
+			code: "game:stone-{rock}", 
+			quantity: { avg: 7, var: 0 } 
+		}
+	],
+	sidesolid: { all: false },
+	sideopaqueByType: {
+		"*-snow": { all: false, down: true },
+		"*": { all: false }
+	},
+	sounds: {
+		"walk": "game:walk/stone"
+	},
+	lightAbsorption: 0,
+	collisionSelectionBox: { x1: 0.125, y1: 0, z1: 0.125, x2: 0.8125, y2: 0.9375, z2: 0.875 },
+	maxStackSize: 8,
+	guiTransform: {
+		translation: { x: -2.5, y: -2.5, z: 0 },
+		rotation: { x: -22.59375, y: 82, z: 0 },
+		scale: 1.64
+	},
+	heldTpIdleAnimation: "holdbothhandslarge", heldRightReadyAnimation: "heldblockready", heldTpUseAnimation: "twohandplaceblock",
+	tpHandTransform: {
+		translation: { x: -1, y: -0.65, z: -0.13 },
+		rotation: { x: -14, y: 37, z: -103 },
+		scale: 0.77
+	}
+}

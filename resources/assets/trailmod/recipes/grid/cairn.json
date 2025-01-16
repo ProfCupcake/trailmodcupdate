@@ -1,0 +1,9 @@
+{
+	ingredientPattern: "_L_	LLL	LLL",
+	ingredients: {
+		"L": { type: "item", code: "game:stone-*", name: "rock", allowedVariants: ["andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble", "obsidian", "scoria", "tuff", "halite"] }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "block", code: "trailmod:cairn-{rock}-free", quantity: 1 }
+}

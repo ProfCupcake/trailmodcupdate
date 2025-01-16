@@ -1,0 +1,61 @@
+{	
+	//BLOCKS
+	"block-soil-verylow-pretrail": "やせた土（踏みつけられた）",
+	"block-trail-verylow-new": "自然歩道（やせた土）",
+	"block-trail-verylow-established": "定着した歩道（やせた土）",
+	"block-trail-verylow-veryestablished": "砂利道（やせた土）",
+	"block-trail-verylow-old": "幹線道路（やせた土）",
+	
+	"block-soil-low-pretrail": "少し肥沃な土（踏みつけられた）",
+	"block-trail-low-new": "自然歩道（少し肥沃な土）",
+	"block-trail-low-established": "定着した歩道（少し肥沃な土）",
+	"block-trail-low-veryestablished": "砂利道（少し肥沃な土）",
+	"block-trail-low-old": "幹線道路（少し肥沃な土）",
+
+	"block-soil-medium-pretrail": "肥沃な土（踏みつけられた）",
+	"block-trail-medium-new": "自然歩道（肥沃な土）",
+	"block-trail-medium-established": "定着した歩道（肥沃な土）",
+	"block-trail-medium-veryestablished": "砂利道（肥沃な土）",
+	"block-trail-medium-old": "幹線道路（肥沃な土）",
+
+	"block-soil-compost-pretrail": "とても肥沃な土（踏みつけられた）",
+	"block-trail-compost-new": "自然歩道（とても肥沃な土）",
+	"block-trail-compost-established": "定着した歩道（とても肥沃な土）",
+	"block-trail-compost-veryestablished": "砂利道（とても肥沃な土）",
+	"block-trail-compost-old": "幹線道路（とても肥沃な土）",
+
+	"block-soil-high-pretrail": "テラ・プレタ（踏みつけられた）",
+	"block-trail-high-new": "自然歩道（テラ・プレタ）",
+	"block-trail-high-established": "定着した歩道（テラ・プレタ）",
+	"block-trail-high-veryestablished": "砂利道（テラ・プレタ）",
+	"block-trail-high-old": "幹線道路（テラ・プレタ）",
+   
+	"block-cairn-andesite-*": "安山岩の石塚",
+	"block-cairn-chalk-*": "チョーク石の石塚",
+	"block-cairn-chert-*": "チャート石の石塚",
+	"block-cairn-conglomerate-*": "礫岩の石塚",
+	"block-cairn-limestone-*": "石灰岩の石塚",
+	"block-cairn-claystone-*": "粘土岩の石塚",
+	"block-cairn-granite-*": "花崗岩の石塚",
+	"block-cairn-sandstone-*": "砂岩の石塚",
+	"block-cairn-shale-*": "泥板岩の石塚",
+	"block-cairn-basalt-*": "玄武岩の石塚",
+	"block-cairn-peridotite-*": "かんらん岩の石塚",
+	"block-cairn-phyllite-*": "千枚岩の石塚",
+	"block-cairn-slate-*": "粘板岩の石塚",
+	"block-cairn-bauxite-*": "ボーキサイトの石塚",
+	"block-cairn-kimberlite-*": "キンバーライトの石塚",
+	"block-cairn-suevite-*": "スエバイトの石塚",
+	"block-cairn-whitemarble-*": "白色大理石の石塚",
+	"block-cairn-redmarble-*": "桃白色大理石の石塚",
+	"block-cairn-greenmarble-*": "緑色大理石の石塚",
+	"block-cairn-obsidian-*": "黒曜石の石塚",
+	"block-cairn-scoria-*": "岩滓の石塚",
+	"block-cairn-tuff-*": "凝灰岩の石の石塚",
+	"block-cairn-halite-*": "岩塩の石塚",
+
+	//HANDBOOK
+	"gamemechanicinfo-trails-title": "ゲームメカニクス：自然歩道と道路" ,
+	"gamemechanicinfo-trails-text": "<strong>概要</strong><br>歩道は、環境の中を移動する人々や動物たちによって自然に作られます。こうした有機的なルートは、かつては手つかずの原野だった場所に小道や砂利道、道路を切り開き、風景を変えます。交通量が多ければ多いほど、歩道はより早く、より定着したものになります。"
+
+}

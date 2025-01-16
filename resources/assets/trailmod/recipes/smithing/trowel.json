@@ -1,0 +1,12 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: ["copper", "tinbronze", "bismuthbronze", "blackbronze", "silver", "gold", "iron", "meteoriciron", "steel"] },
+	pattern: [[
+
+		"__#####____",
+		"_##########",
+		"__#####____",
+
+	]],
+	name: "Trowel",
+	output: { type: "item", code: "trailmod:trowelhead-{metal}"  }
+}
