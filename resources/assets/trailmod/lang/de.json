@@ -1,0 +1,91 @@
+{
+  //BLOCKS
+
+  "block-soil-verylow-pretrail": "Unfruchtbarer Boden (zertrampelt)",
+  "block-trail-verylow-new": "Wildnispfad (unfruchtbarer Boden)",
+  "block-trail-verylow-established": "Etablierter Pfad (unfruchtbarer Boden)",
+  "block-trail-verylow-veryestablished": "Schotterstraße (unfruchtbarer Boden)",
+  "block-trail-verylow-old": "Autobahn (unfruchtbarer Boden)",
+
+  "block-soil-low-pretrail": "Boden mit geringer Fruchtbarkeit (zertrampelt)",
+  "block-trail-low-new": "Wildnispfad (Boden mit geringer Fruchtbarkeit)",
+  "block-trail-low-established": "Etablierter Pfad (Boden mit geringer Fruchtbarkeit)",
+  "block-trail-low-veryestablished": "Schotterstraße (Boden mit geringer Fruchtbarkeit)",
+  "block-trail-low-old": "Autobahn (Boden mit geringer Fruchtbarkeit)",
+
+  "block-soil-medium-pretrail": "Boden mit mittlerer Fruchtbarkeit (zertrampelt)",
+  "block-trail-medium-new": "Wildnispfad (Boden mit mittlerer Fruchtbarkeit)",
+  "block-trail-medium-established": "Etablierter Pfad (Boden mit mittlerer Fruchtbarkeit)",
+  "block-trail-medium-veryestablished": "Schotterstraße (Boden mit mittlerer Fruchtbarkeit)",
+  "block-trail-medium-old": "Autobahn (Boden mit mittlerer Fruchtbarkeit)",
+
+  "block-soil-compost-pretrail": "Boden mit hoher Fruchtbarkeit (zertrampelt)",
+  "block-trail-compost-new": "Wildnispfad (Boden mit hoher Fruchtbarkeit)",
+  "block-trail-compost-established": "Etablierter Pfad (Boden mit hoher Fruchtbarkeit)",
+  "block-trail-compost-veryestablished": "Schotterstraße (Boden mit hoher Fruchtbarkeit)",
+  "block-trail-compost-old": "Autobahn (Boden mit hoher Fruchtbarkeit)",
+
+  "block-soil-high-pretrail": "Terra preta (zertrampelt)",
+  "block-trail-high-new": "Wildnispfad (Terra preta)",
+  "block-trail-high-established": "Etablierter Pfad (Terra preta)",
+  "block-trail-high-veryestablished": "Schotterstraße (Terra preta)",
+  "block-trail-high-old": "Autobahn (Terra preta)",
+
+  "block-cairn-andesite-*": "Andesit-Steinhaufen",
+  "block-cairn-chalk-*": "Kreide-Steinhaufen",
+  "block-cairn-chert-*": "Hornstein-Steinhaufen",
+  "block-cairn-conglomerate-*": "Konglomerat-Steinhaufen",
+  "block-cairn-limestone-*": "Kalkstein-Steinhaufen",
+  "block-cairn-claystone-*": "Tonstein-Steinhaufen",
+  "block-cairn-granite-*": "Granit-Steinhaufen",
+  "block-cairn-sandstone-*": "Sandstein-Steinhaufen",
+  "block-cairn-shale-*": "Schiefer-Steinhaufen",
+  "block-cairn-basalt-*": "Basalt-Steinhaufen",
+  "block-cairn-peridotite-*": "Peridotit-Steinhaufen",
+  "block-cairn-phyllite-*": "Phyllit-Steinhaufen",
+  "block-cairn-slate-*": "Schiefer-Steinhaufen",
+  "block-cairn-bauxite-*": "Bauxit-Steinhaufen",
+  "block-cairn-kimberlite-*": "Kimberlit-Steinhaufen",
+  "block-cairn-suevite-*": "Suevit-Steinhaufen",
+  "block-cairn-whitemarble-*": "Weißmarmor-Steinhaufen",
+  "block-cairn-redmarble-*": "Rotmarmor-Steinhaufen",
+  "block-cairn-greenmarble-*": "Grünmarmor-Steinhaufen",
+  "block-cairn-obsidian-*": "Obsidian-Steinhaufen",
+  "block-cairn-scoria-*": "Schlacke-Steinhaufen",
+  "block-cairn-tuff-*": "Tuff-Steinhaufen",
+  "block-cairn-halite-*": "Halit-Steinhaufen",
+
+
+
+  //TOOLS
+  "trailmod:item-trowel-copper": "Kupfer-Gartenspaten",
+  "trailmod:item-trowel-tinbronze": "Zinnbronze-Gartenspaten",
+  "trailmod:item-trowel-bismuthbronze": "Wismutbronze-Gartenspaten",
+  "trailmod:item-trowel-blackbronze": "Schwarzbronze-Gartenspaten",
+  "trailmod:item-trowel-gold": "Gold-Gartenspaten",
+  "trailmod:item-trowel-silver": "Silber-Gartenspaten",
+  "trailmod:item-trowel-iron": "Eisen-Gartenspaten",
+  "trailmod:item-trowel-meteoriciron": "Meteoriten-Eisen-Gartenspaten",
+  "trailmod:item-trowel-steel": "Stahl-Gartenspaten",
+  "trailmod:item-trowelhead-copper": "Kupferspatenkopf",
+  "trailmod:item-trowelhead-tinbronze": "Zinnbronze-Spatenkopf",
+  "trailmod:item-trowelhead-bismuthbronze": "Wismutbronze-Spatenkopf",
+  "trailmod:item-trowelhead-blackbronze": "Schwarzbronze-Spatenkopf",
+  "trailmod:item-trowelhead-gold": "Gold-Spatenkopf",
+  "trailmod:item-trowelhead-silver": "Silber-Spatenkopf",
+  "trailmod:item-trowelhead-iron": "Eisenspatenkopf",
+  "trailmod:item-trowelhead-meteoriciron": "Meteoriten-Eisenspatenkopf",
+  "trailmod:item-trowelhead-steel": "Stahl-Spatenkopf",
+
+  "trailmod:itemdesc-trowel-*": "<font color=\"#99c9f9\"><i>Wird verwendet, um Blöcke als zertrampel-geschützte Blöcke zu markieren.</i></font>",
+  "trailmod:heldhelp-trampleprotectblock": "Zertrampelschutz hinzufügen",
+  "trailmod:heldhelp-removetrampleprotection": "Zertrampelschutz entfernen",
+
+  //HANDBOOK
+  "trailmod:gamemechanicinfo-trails-title": "Spielmechanik: Natürliche Pfade & Straßen",
+  "trailmod:gamemechanicinfo-trails-text": "<strong>Übersicht</strong><br>Pfade entstehen natürlich durch die Bewegung von Menschen und Tieren in der Umgebung. Diese organischen Routen verändern die Landschaft, indem sie Pfade, Wege und Straßen durch einst unberührte Wildnis schneiden. Je mehr Verkehr eine Route erfährt, desto schneller und etablierter wird der Pfad.",
+
+  "trailmod:trowel-handbook-help-title": "Anleitung",
+  "trailmod:trowel-handbook-help-text": "Der Gartenspaten ermöglicht es dir, Boden- und Pflanzenblöcke als zertrampel-geschützt zu markieren, was bedeutet, dass sie niemals zertrampelt werden und keine Pfade entwickeln, egal wie oft du darüber läufst. <hk>Rechtsklick</hk> auf einen Block mit dem Gartenspaten in der Hand, um den Block als zertrampel-geschützt zu markieren. <hk>Linksklick</hk>, um den Trittschutz zu entfernen.\n\nWenn du eine Pflanze oder Blume zertrampel-geschützt machst, wird auch der Bodenblock als zertrampel-geschützt zu markiert."
+
+}
