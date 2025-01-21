@@ -1112,10 +1112,6 @@ namespace TrailMod
         {
             bool groundIsTrail = groundBlock is BlockTrail;
 
-            //If we are configured not to crush any plants until a trail is created.
-            if (TMGlobalConstants.onlyTrampleFoliageOnTrailCreation && !groundIsTrail)
-                return ETrailTrampleType.NO_TRAMPLE;
-
             ModSystemTrampleProtection modTramplePro = touchEnt.Api.ModLoader.GetModSystem<ModSystemTrampleProtection>();
 
             if (modTramplePro.IsTrampleProtected(groundPos))
@@ -1128,13 +1124,15 @@ namespace TrailMod
             {
                 if (plantBlock is BlockTallGrass)
                 {
-                    return ETrailTrampleType.TALLGRASS;
+                    if (!TMGlobalConstants.onlyTrampleGrassOnTrailCreation || groundIsTrail)
+                        return ETrailTrampleType.TALLGRASS;
                 }
                     
                 if (TMGlobalConstants.flowerTrampling)
                 {
-                    if (plantBlock is BlockLupine && groundIsTrail)
-                        return ETrailTrampleType.DEFAULT;
+                    if (plantBlock is BlockLupine)
+                        if (!TMGlobalConstants.onlyTrampleFlowersOnTrailCreation || groundIsTrail)
+                            return ETrailTrampleType.DEFAULT;
                 }
 
                 string code = plantBlock.Code.FirstCodePart();
@@ -1142,16 +1140,20 @@ namespace TrailMod
                 if (TMGlobalConstants.flowerTrampling)
                 {
                     if (code == "flower" && groundIsTrail)
-                        return ETrailTrampleType.DEFAULT;
+                        if (!TMGlobalConstants.onlyTrampleFlowersOnTrailCreation || groundIsTrail)
+                            return ETrailTrampleType.DEFAULT;
                 }
 
                 if (TMGlobalConstants.fernTrampling)
                 {
-                    if (plantBlock is BlockFern && groundIsTrail)
-                        return ETrailTrampleType.DEFAULT;
+                    if (!TMGlobalConstants.onlyTrampleFernsOnTrailCreation || groundIsTrail)
+                    {
+                        if (plantBlock is BlockFern && groundIsTrail)
+                            return ETrailTrampleType.DEFAULT;
 
-                    if (code == "tallfern" && groundIsTrail)
-                        return ETrailTrampleType.DEFAULT;
+                        if (code == "tallfern" && groundIsTrail)
+                            return ETrailTrampleType.DEFAULT;
+                    }
                 }
             }
 
