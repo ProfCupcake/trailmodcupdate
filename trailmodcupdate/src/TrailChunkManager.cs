@@ -1017,7 +1017,22 @@ namespace TrailMod
 
                     if (touchCount >= trailBlockTransformData.transformOnTouchCount)
                     {
+                        Dictionary<int,Block> decors = world.BlockAccessor.GetSubDecors(blockPos);
+                        if (decors != null)
+                        {
+                            foreach (KeyValuePair<int,Block> kvp in decors)
+                            {
+                                world.BlockAccessor.SetDecor(world.GetBlock(0), blockPos, kvp.Key);
+                            }
+                        }
                         world.BlockAccessor.SetBlock(trailBlockTransformData.transformBlockID, blockPos);
+                        if (decors != null)
+                        {
+                            foreach (KeyValuePair<int,Block> kvp in decors)
+                            {
+                                world.BlockAccessor.SetDecor(kvp.Value, blockPos, kvp.Key);
+                            }
+                        }
 
                         return true;
                     }
