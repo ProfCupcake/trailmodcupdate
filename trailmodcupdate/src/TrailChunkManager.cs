@@ -1154,7 +1154,7 @@ namespace TrailMod
 
                 if (TMGlobalConstants.flowerTrampling)
                 {
-                    if (code == "flower" && groundIsTrail)
+                    if (code == "flower")
                         if (!TMGlobalConstants.onlyTrampleFlowersOnTrailCreation || groundIsTrail)
                             return ETrailTrampleType.DEFAULT;
                 }
@@ -1163,10 +1163,10 @@ namespace TrailMod
                 {
                     if (!TMGlobalConstants.onlyTrampleFernsOnTrailCreation || groundIsTrail)
                     {
-                        if (plantBlock is BlockFern && groundIsTrail)
+                        if (plantBlock is BlockFern)
                             return ETrailTrampleType.DEFAULT;
 
-                        if (code == "tallfern" && groundIsTrail)
+                        if (code == "tallfern")
                             return ETrailTrampleType.DEFAULT;
                     }
                 }
