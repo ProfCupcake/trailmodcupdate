@@ -16,6 +16,7 @@ namespace TrailMod
     [ProtoContract(ImplicitFields = ImplicitFields.AllFields)]
     public class TrailModConfig
     {
+        public bool creativeTrampling = false;
         public bool dirtRoadsOnly = false;
         public bool foliageTrampleSounds = true;
         public bool onlyPlayersCreateTrails = false;
@@ -150,6 +151,7 @@ namespace TrailMod
         private void ApplyConfigGlobalConsts()
         {
             //GENERAL SETTINGS
+            TMGlobalConstants.creativeTrampling                 = config.creativeTrampling;
             TMGlobalConstants.foliageTrampleSounds              = config.foliageTrampleSounds;
             TMGlobalConstants.onlyPlayersCreateTrails           = config.onlyPlayersCreateTrails;
             TMGlobalConstants.flowerTrampling                   = config.flowerTrampling;

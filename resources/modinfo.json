@@ -7,7 +7,7 @@
   "authors": [ "Grifthegnome" ],
   "contributors": [ "Professor Cupcake" ],
   "description": "Adds dynamic evolving trail and roads. Backup your world before using!",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "dependencies": {
     "game": "*"
   }

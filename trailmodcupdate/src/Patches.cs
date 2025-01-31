@@ -54,7 +54,8 @@ namespace TrailMod
             {
                 EntityPlayer entityPlayer = (EntityPlayer)entity;
                 if (entityPlayer.Player.WorldData.CurrentGameMode != EnumGameMode.Survival)
-                    return;
+                    if (!TMGlobalConstants.creativeTrampling || entityPlayer.Player.WorldData.CurrentGameMode != EnumGameMode.Creative)
+                        return;
             }
                
             if (world.Side == EnumAppSide.Client)
